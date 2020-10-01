@@ -5,6 +5,7 @@
   1.clone the repository
   ```bash
 git clone https://github.com/falcon7731/Microsoft-Paint-Clock.git
+cd Microsoft-Paint-Clock
 ```
   2.Install the requirements?
    ```bash
