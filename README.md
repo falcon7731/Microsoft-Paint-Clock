@@ -26,4 +26,4 @@ python main.py
 
 ## Disclaimer
   I have only tested this program on a 1080p monitor, if you have a smaller monitor or can't run Microsoft paint in fullscreen I recommend changing the code before running it.
- 
+  Also, this program uses the position of the buttons to click on; so I highly recommend double checking the positions of the buttons to prevent the program from clicking on something it's not seposed to.
