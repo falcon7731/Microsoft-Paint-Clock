@@ -1,7 +1,7 @@
 ﻿# Microsoft-Paint-Clock
  This python code draws the time in Microsoft paint in a digital style
 
- ##Installation
+ ## Installation
   1.clone the repository
   ```bash
 git clone https://github.com/falcon7731/Microsoft-Paint-Clock.git
