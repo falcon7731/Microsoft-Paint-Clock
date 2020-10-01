@@ -15,8 +15,8 @@ pip install --upgrade -r "requirements.txt"
 ## Usage
   1.run the script
       ```bash
-python main.py
-```
+     python main.py
+      ```
   2.open Microsoft paint
   3.ensure there is enough space for the time to be drawn
   4.hold Control, Shift and P at the same time
