@@ -8,7 +8,7 @@ import sys
 screenWidth, screenHeight = pyautogui.size()
 running = True
 is_drawing = False
-pyautogui.FAILSAFE = False
+pyautogui.FAILSAFE = True
 pyautogui.PAUSE = 0.05
 def draw_num(num,length , start,time):
     if num == 0:
@@ -105,13 +105,10 @@ def startt():
 
 keyboard.add_hotkey('ctrl+shift+p', lambda: startt())
 
-do_once = False
+print('Ready')
 while running:
-    get_pos = None
-    start = None
     get_pos = pyautogui.position()
     start = pos(get_pos)
-    do_once = True
     if is_drawing:
         t = datetime.now().time()
         h = format(t.hour,'02d')
